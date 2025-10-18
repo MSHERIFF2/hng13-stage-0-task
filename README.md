@@ -4,7 +4,7 @@ A responsive profile card implementation for HNG13 Stage 0 task. This project sh
 
 ## Live Demo
 
-[View Live Demo](#) <!-- Replace with your deployed URL -->
+[View Live Demo](https://msheriff2.github.io/hng13-stage-0-task/)
 
 ## Features
 
