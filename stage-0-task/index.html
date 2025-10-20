@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheriffdeen Profile Card</title>
+    <script src="profile-card.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <header>
+        <figure data-testid="test-user-avatar">
+          <img
+            src="myPhoto.png" alt="user-photo" width="200" height="200" loading="lazy" decoding="async"
+            
+            alt="user-photo"
+           
+            
+          />
+        </figure>
+        <p data-testid="test-user-name" id="text-name">Muritala Sheriffdeen Adegoke</p>
+      </header>
+      <main>
+        <p data-testid="test-user-bio" id="text-bio">
+          Software Engineer. Highly motivated and experienced software engineer
+          with a strong background in developing scalable, efficient, and
+          reliable software systems. Proficient in range of programming
+          languages, including Python, JavaScript, Typescript, C and HTML/CSS,
+          with intermediate skill in both front-end and back-end development.
+        </p>
+
+        <nav data-testid="test-user-social-links">
+          <h3>My Social Media:</h3>
+          <ul>
+            <li data-testid="test-user-social-linkedin">
+              <a href="https://www.linkedin.com/in/sheriffdeen-muritala-adegoke-b72441287/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </li>
+           <li data-testid="test-user-social-github">
+              <a href="https://github.com/MSHERIFF2" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section data-testid="test-user-hobbies">
+          <h3>My hobbies:</h3>
+          <ul>
+            <li>Coding</li>
+            <li>Qur'an Recitation</li>
+            <li>Jogging</li>
+          </ul>
+          <section data-testid="test-user-dislikes">
+            <h3>What I dislikes:</h3>
+            <ul>
+              <li>Smoke</li>
+              <li>Noisy Environment</li>
+              <li>Cramming</li>
+            </ul>
+          </section>
+        </section>
+        <footer data-testid="test-user-time" id="Time"></footer>
+      </main>
+
+      
+    </article>
+  </body>
+</html>
